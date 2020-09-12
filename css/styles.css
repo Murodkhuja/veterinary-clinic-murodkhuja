@@ -48,6 +48,10 @@ html {
 
 body {
   font-family: "Futura PT", "Arial", sans-serif;
+  background-image: url("..//img/bg.jpg");
+  background-color: #E5E5E5;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .visually-hidden {
@@ -72,10 +76,238 @@ body {
 
 
 /*===== HEADER part styles started =====*/
+
+.top-address {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  text-align: center;
+  color: #333333;
+}
+
+.home-address {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+  margin-left: 200px;
+  text-align: center;
+  margin-right: 50px;
+}
+
+.home-address::before {
+  content: "";
+  background-image: url("../img/home.svg");
+  width: 13px;
+  height: 13px;
+  margin-right: 9px;
+}
+
+.phone-numbers {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+}
+
+.phone-numbers:hover {
+  color: #FFBD54;
+  transition: color 0.3s ease;
+}
+
+.phone-numbers:active {
+  opacity: 0.5;
+  color: #333333;
+}
+
+.number-first {
+  margin-right: 9px;
+}
+
+.number-first::before {
+  display: inline-block;
+  content: "";
+  background-image: url("../img/phone.svg");
+  width: 13px;
+  height: 13px;
+  margin-right: 9px;
+}
+
+.number-second {
+  margin-right: 9px;
+}
+
+.number-second::before {
+  display: inline-block;
+  content: "";
+  background-image: url("../img/ellipse.svg");
+  width: 4px;
+  height: 4px;
+  margin-right: 9px;
+  align-items: center;
+  text-align: center;
+}
+
+.number-third {
+  margin-right: 30px;
+}
+
+.number-third::before {
+  display: inline-block;
+  content: "";
+  background-image: url("../img/ellipse.svg");
+  width: 4px;
+  height: 4px;
+  margin-right: 9px;
+}
+
+.schedule-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.schedule-text-first {
+  margin-right: 17px;
+}
+
+.schedule-text-first::before {
+  margin-right: 7px;
+  display: inline-block;
+  content:"";
+  background-image: url("../img/schedule.svg");
+  width: 14px;
+  height: 14px;
+}
+
+.nav-bar {
+  display: flex;
+  background-color: #FFFFFF;
+  border: 1px solid #F3F3F3;
+  box-sizing: border-box;
+}
+
+.logo-link {
+  margin-left: 65px;
+}
+
+.menu-list {
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.menu-list-features-item {
+  text-decoration: none;
+  padding: 19px 27px;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.menu-features:last-child {
+  margin-left: 30px;
+  padding: 0;
+}
+
+.menu-features:last-child:hover {
+  margin-left: 30px;
+  padding: 0;
+}
+
+.menu-features:last-child::before {
+  display: inline-block;
+  content: "";
+  background-image: url("../img/pet.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 23px;
+  height: 21px;
+}
+
+.menu-list-features-item:hover {
+  background-color:#FFBD54;
+  transition: background-color 0.3s ease;
+}
+
+.menu-list-features-item:active {
+  background: rgba(255, 189, 84, 0.5);
+  transition: background-color 0.3s ease;
+}
+
 /*===== HEADER part srtyes ended =====*/
 
 
 /*===== MAIN part styles started =====*/
+
+.first-section {
+  background-image: url("../img/pets+bird.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 1350px;
+}
+
+.first-section-title {
+  margin-top: 100px;
+  margin-left: 600px;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 64px;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.first-section-title2 {
+  margin-left: 600px;
+  color: #78C0DE;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 64px;
+  padding: 0;
+  margin-top: 0;
+}
+
+.first-section-text {
+  width: 495px;
+  margin-left: 600px;
+  margin-bottom: 38px;
+}
+
+.our-services {
+  padding: 16px 47px;
+  background-color: #333333;
+  color: #fff;
+  margin-left: 600px;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+.our-services:hover {
+  background-color: #FFBD54;
+  border-radius: 3px;
+  color: #333333;
+  transition: background-color 0.3s ease;
+
+}
+
+.our-services:active {
+  background: #FFBD54;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+
+}
+
+
+
+
+
+
 
 /*===== FIRST SECTION styles started =====*/
 /*===== FIRST SECTION styles ended =====*/

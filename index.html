@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="RU">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,36 +7,34 @@
 
   <!--===== link to the page section =====-->
   <link rel="icon" href="./img/.ico" type="image/x-icon">
-  <link rel="stylesheet" href="./css/normalize.css">
-  <link rel="stylesheet" href="./css/styles.css">
+  <!-- <link rel="stylesheet" href="./css/normalize.css"> -->
+  <!-- <link rel="stylesheet" href="./css/styles.css"> -->
+  <link rel="stylesheet" href="./css/styles.min.css">
 </head>
 <body>
 
   <!--===== HEADER part of the page STARTED=====-->
   <header class="container">
-    <div>
-    <address>г. Мариуполь, проспект Победы, 48а</address>
-    <div>
-      <a href="phone-number" href="tel:+0676347574">(067) 634 -75 - 74</a>
-      <a href="phone-number" href="tel:+0637570131">(0637) 57 - 01 - 31</a>
-      <a href="phone-number" href="tel:+0982664389">(098) 266 - 43 - 89</a>
+    <div class="top-address">
+    <address class="home-address">г. Мариуполь, проспект Победы, 48а
+    </address>
+      <a class="phone-numbers number-first" href="tel:+0676347574">(067) 634 -75 - 74</a>
+      <a class="phone-numbers number-second" href="tel:+0637570131">(0637) 57 - 01 - 31</a>
+      <a class="phone-numbers number-third" href="tel:+0982664389">(098) 266 - 43 - 89</a>
+      <p class="schedule-text schedule-text-first">Пн - Пт 8:00 - 18:00</p>
+      <p class="schedule-text schedule-text-second">Сб - Вс 8:00 - 14:00</p>
     </div>
-    <div>
-      <p>Пн - Пт 8:00 - 18:00</p>
-      <p>Сб - Вс 8:00 - 14:00</p>
-    </div>
-  </div>
 
-    <div>
-      <a href="index.html"><img src="./img/logo.svg" alt="logo" width="178" height="86"></a>
-      <ul>
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="about.html">О Клинике</a></li>
-        <li><a href="services.html">Наши Услуги</a></li>
-        <li><a href="blog.html">Полезные Статьи</a></li>
-        <li><a href="faq.html">FAQ</a></li>
-        <li><a href="contact.html">Контакты</a></li>
-        <li><a href="ask-question.html">Задать вопрос</a></li>
+    <div class="nav-bar">
+      <a class="logo-link" href="index.html"><img class="logo-img" src="./img/logo.svg" alt="logo" width="178" height="86"></a>
+      <ul class="menu-list">
+        <li class="menu-features"><a class="menu-list-features-item" href="index.html">Главная</a></li>
+        <li class="menu-features"><a class="menu-list-features-item" href="about.html">О Клинике</a></li>
+        <li class="menu-features"><a class="menu-list-features-item" href="services.html">Наши Услуги</a></li>
+        <li class="menu-features"><a class="menu-list-features-item" href="blog.html">Полезные Статьи</a></li>
+        <li class="menu-features"><a class="menu-list-features-item" href="faq.html">FAQ</a></li>
+        <li class="menu-features"><a class="menu-list-features-item" href="contact.html">Контакты</a></li>
+        <li class="menu-features"><a class="menu-list-features-item" href="ask-question.html">Задать вопрос</a></li>
       </ul>
     </div>
   </header>
@@ -44,18 +42,20 @@
 
 
   <!--===== MAIN part of the page STARTED=====-->
-  <main>
-    <div>
-      <h1>Мы заботимся</h1>
-      <h1>о ваших питомцах!</h1>
-      <p>Вам и Вашему любимцу множество услуг по диагностике, профилактике заболеваний по лечению и уходу за Вашими животными. Профессионалы работающие в нашей клинике сделают все для того, чтобы быстро, эффективно и максимально безболезненно выполнить любие процедуры, которые необходимы Вашему домашнему любимцу.</p>
-      <a href="">Наши услуги</a>
+  <main class="container">
+    <div class="first-section">
+      <h1 class="first-section-title">Мы заботимся о </h1>
+      <h1 class="first-section-title2">ваших питомцах!</h1>
+      <p class="first-section-text">Вам и Вашему любимцу множество услуг по диагностике, профилактике заболеваний по лечению и уходу за Вашими животными. Профессионалы работающие в нашей клинике сделают все для того, чтобы быстро, эффективно и максимально безболезненно выполнить любие процедуры, которые необходимы Вашему домашнему любимцу.</p>
+      <a class="our-services" href="#">Наши услуги</a>
     </div>
 
-    <div>
+      <blockquote>
+        <hr>
       <p>Наша ветеринарная клиника готова уделить максимум внимания Вам и Вашему питамцу. Здоровье и благополучие Ваших животных очень важно для нас и мы стремимся оказать наилучшую возможную ветеринарную помощь.</p>
+      <hr>
       <h3>Оржоникидзевская Ветеринарная клиника</h3>
-    </div>
+    </blockquote>
 
     <div>
       <h2>Наши услуги</h2>
@@ -152,7 +152,7 @@
     <div>
       <h1>Будь в курсе событий</h1>
       <form action="https://echo.htmlacademy.ru" method="POST">
-        <input type="mailto" name="mail" placeholder="Укажите Ваш email адрес" >
+        <input type="email" name="mailto" placeholder="Укажите Ваш email адрес" >
         <button type="submit">Подписаться</button>
       </form>
     </div>
@@ -169,7 +169,7 @@
           <a href="readmore.html">Читать больше</a>
         </li>
         <li>
-          <img src="./img/section-4-02.jpg" srcset="./img/section-4-02.jpg 1x, ./img/section-4-02@2x.jpg" alt="section-4-02" width="305" height="435">
+
           <a href="#">#собака</a>
           <a href="#">#дом</a>
           <a href="#">#уход</a>
@@ -189,6 +189,20 @@
     </div>
 
     <div>
+      <a href="https://www.google.com/maps"><img src="./img/map.jpg" srcset="./img/map.jpg 1x, ./img/map@2x.jpg 2x" alt="maps" width="462" height="652"></a>
+
+      <div>
+        <h1>Обратная связь</h1>
+        <p>При возникновении вопросов по поводу работы клиники или консультаций, заполните форму ниже:</p>
+
+        <form action="https://echo.htmlacademy.ru" method="POST">
+        <input type="text" id="name" placeholder="Ваше имя">
+        <input type="text" id="mailto" placeholder="Email для обратной связи">
+        <input type="text" id="textarea" placeholder="Опишите Ваш вопрос. Например: в каком возрасте можно прививать от бешенства?">
+        <button type="submit">Задать нам вопрос</button>
+
+        </form>
+      </div>
 
     </div>
 
@@ -222,9 +236,9 @@
     <div>
       <address>г. Мариуполь, проспект Победы, 48а</address>
       <div>
-        <a href="phone-number" href="tel:+0676347574">(067) 634 -75 - 74</a>
-        <a href="phone-number" href="tel:+0637570131">(0637) 57 - 01 - 31</a>
-        <a href="phone-number" href="tel:+0982664389">(098) 266 - 43 - 89</a>
+        <a href="tel:+0676347574">(067) 634 -75 - 74</a>
+        <a href="tel:+0637570131">(0637) 57 - 01 - 31</a>
+        <a href="tel:+0982664389">(098) 266 - 43 - 89</a>
       </div>
     </div>
     <p>© 2020 example. All Rights Reserved.</p>
