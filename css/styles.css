@@ -49,7 +49,7 @@ html {
 body {
   font-family: "Futura PT", "Arial", sans-serif;
   background-image: url("..//img/bg.jpg");
-  background-color: #E5E5E5;
+  /* background-color: #E5E5E5; */
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -438,5 +438,72 @@ body {
 
 
 /*===== FOOTER part styles started =====*/
+
+.footer-section {
+  display: flex;
+  background-color: #F3F3F3;
+  border: 1px solid #EBEBEB;
+  box-sizing: border-box;
+
+}
+
+.link-wrapper {
+  display: flex;
+}
+
+.footer-logo-link {
+  padding: 65px 54px 67px 57px;
+}
+
+.footer-first-link-group {
+  margin-top: 61px;
+  list-style-type: none;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+  margin-right: 87px;
+  padding: 0;
+}
+
+.footer-second-link-group {
+  margin-top: 61px;
+  list-style-type: none;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+  padding: 0;
+}
+
+.footer-schedule {
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+  margin-top: 52px;
+  margin-left: 100px;
+  padding: 0;
+  width: 118px;
+}
+
+.footer-schedule-text {
+  padding: 0;
+  margin: 0;
+  width: 118px;
+}
+
+.footer-phone {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-address {
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+  padding: 0;
+  width: 157px;
+
+}
 
 /*===== FOOTER part styles ended =====*/
