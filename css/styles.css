@@ -243,6 +243,7 @@ body {
 
 
 /*===== MAIN part styles started =====*/
+/*===== FIRST SECTION styles started =====*/
 
 .first-section {
   background-image: url("../img/pets+bird.png");
@@ -250,6 +251,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   width: 1350px;
+  height: 650px;
 }
 
 .first-section-title {
@@ -300,7 +302,117 @@ body {
   background: #FFBD54;
   opacity: 0.7;
   transition: opacity 0.3s ease;
+}
 
+.quote-section {
+  position: relative;
+  width: 753px;
+  align-items: center;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.quote-section::before {
+  position: absolute;
+  content: "";
+  background-image: url("../img/quote1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: translateX(-430px);
+  width: 40px;
+  height: 40px;
+}
+
+.quote-section::after {
+  position: absolute;
+  content: "";
+  background-image: url("../img/quote2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: translateX(400px);
+  width: 40px;
+  height: 40px;
+  top: 90px;
+}
+
+.quote-hr {
+  width: 140px;
+  height: 0px;
+  left: 646px;
+  top: 914px;
+  border: 1px solid #DBDBDB;
+}
+
+.quote-text {
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #949494;
+  margin-top: 43px;
+  margin-bottom: 35px;
+}
+
+.quote-title {
+  margin-top: 35px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #333333;
+}
+
+/*===== FIRST SECTION styles ended =====*/
+
+/*===== SECOND SECTION styles started =====*/
+
+.second-section {
+
+}
+
+
+.second-section-title {
+  margin-top: 190px;
+  margin-left: 450px;
+  margin-bottom: 80px;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 20px;
+  color: #333333;
+}
+
+.second-section-list {
+  display: flex;
+  flex-wrap: nowrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.second-section-features {
+  width: 193px;
+  height: 201px;
+  margin-right: 13px;
+  align-items: center;
+  text-align: center;
+  padding: 10px 60px;
+  background: #FFFFFF;
+  border: 1px solid #F3F3F3;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.second-section-features-text {
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #333333;
+}
+
+.second-section-features-link {
+  text-decoration: none;
 }
 
 
@@ -309,10 +421,11 @@ body {
 
 
 
-/*===== FIRST SECTION styles started =====*/
-/*===== FIRST SECTION styles ended =====*/
 
-/*===== SECOND SECTION styles started =====*/
+
+
+
+
 /*===== SECOND SECTION styles ended =====*/
 
 /*===== THIRD SECTION styles started =====*/
@@ -324,5 +437,6 @@ body {
 /*===== MAIN part styles ended =====*/
 
 
-/*===== HEADER part styles started =====*/
-/*===== HEADER part styles ended =====*/
+/*===== FOOTER part styles started =====*/
+
+/*===== FOOTER part styles ended =====*/
